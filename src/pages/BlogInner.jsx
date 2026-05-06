@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlogInnerCode, Footer, Header, NewsLetter, TopOfFooter } from '../components'
+import { BlogInnerCode, BlogInnerInfo, Footer, Header, NewsLetter, TopOfFooter } from '../components'
 
 function BlogInner() {
   return (
@@ -7,6 +7,7 @@ function BlogInner() {
       <Header/>
       <main>
         <BlogInnerCode/>
+        <BlogInnerInfo/>
         <NewsLetter/>
         <TopOfFooter/>
       </main>
