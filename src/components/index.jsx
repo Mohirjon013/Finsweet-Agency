@@ -18,10 +18,12 @@ import InnerDetail from "./InnerDetail";
 import InnerReq from "./InnerReq";
 import InnerRes from "./InnerRes";
 
+import BlogBreaking from "./BlogBreaking";
+import BlogRead from "./BlogRead";
+import BlogPost from "./BlogPost";
 
-
-
-
+import BlogInnerCode from "./BlogInnerCode";
+import BlogInnerInfo from "./BlogInnerInfo";
 
  
 import NewsLetter from "./NewsLetter";
@@ -32,4 +34,4 @@ import Footer from "./Footer";
 
 
 
-export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes,    NewsLetter, Footer, TopOfFooter}
+export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes, BlogBreaking, BlogRead, BlogPost, BlogInnerCode, BlogInnerInfo,   NewsLetter, Footer, TopOfFooter}

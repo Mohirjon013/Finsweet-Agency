@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from '../Context/UserContext';
 import { useParams } from 'react-router-dom';
-import { CareerInnerDescription, CarrerInnerDetail, Footer, Header, NewsLetter, TopOfFooter } from '../components';
+import { CareeerInnerApply, CareerInnerDescription, CarrerInnerDetail, Footer, Header, NewsLetter, TopOfFooter } from '../components';
 
 function CareerInner() {
     const {offerList} = useContext(Context)
@@ -15,6 +15,7 @@ function CareerInner() {
             <main>
                 <CareerInnerDescription item={findedJob}/>
                 <CarrerInnerDetail id={findedJob.id}/>
+                <CareeerInnerApply/>
                 <NewsLetter/>
                 <TopOfFooter/> 
             </main>

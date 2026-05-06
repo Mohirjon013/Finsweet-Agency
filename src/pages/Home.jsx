@@ -9,15 +9,7 @@ function Home() {
   return (
     <>
       <Header/>
-      <main>
-        <CompanyHero/>
-        <CompanyEpertise/>
-        <CompanyVision/>
-        <CompanyTeam/>
-        <NewsLetter/>
-        <TopOfFooter/>
-      </main>
-      <Footer/>
+      Home
     </>
   )
 }

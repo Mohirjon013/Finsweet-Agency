@@ -1,5 +1,5 @@
- import React from 'react'
- import boxImg from '../assets/images/box.svg'
+import React from 'react'
+import boxImg from '../assets/images/box.svg'
 import boxBlueImg from '../assets/images/box-blue.svg'
 
 import boxBigImg from '../assets/images/big-box.svg'

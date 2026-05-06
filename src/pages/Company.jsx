@@ -1,12 +1,24 @@
 import React from 'react'
-import Header from '../components/Header'
+import { CompanyHero, Header, CompanyEpertise, CompanyVision, CompanyTeam, NewsLetter, TopOfFooter, Footer } from '../components'
+
+
 
 function Company() {
+  
+
   return (
-    <div>
+    <>
       <Header/>
-      Company
-    </div>
+      <main>
+        <CompanyHero/>
+        <CompanyEpertise/>
+        <CompanyVision/>
+        <CompanyTeam/>
+        <NewsLetter/>
+        <TopOfFooter/>
+      </main>
+      <Footer/>
+    </>
   )
 }
 

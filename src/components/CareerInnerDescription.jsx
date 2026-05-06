@@ -9,7 +9,7 @@ function CareerInnerDescription({item}) {
     return (
         <section className='containers flex items-center justify-between py-[96px]'>
             <div className="w-[490px]">
-                <strong className='text-[14px] text-[#232536] font-semibold mb-[10px] block'>CAREER AT Ether</strong>
+                <strong className='text-[14px] text-[#232536] font-semibold mb-[10px] block uppercase'>CAREER AT Ether</strong>
                 <h2 className='text-[48px] text-[#232536] font-semibold leading-[58px] mt-[24px] mb-[16px]'>{item.title}</h2>
                 <p className='text-[16px] text-[#232536] mb-[52px]'>Through True Rich Attended does no end it his mother since real had half every him case in packages.</p>
                 <button className='w-[182px] bg-[#444CFC] text-white mt-10 flex justify-center gap-[13px] relative text-[16px] font-medium py-5'>

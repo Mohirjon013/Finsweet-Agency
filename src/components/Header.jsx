@@ -11,9 +11,7 @@ function Header() {
             <img className='w-[122px] h-[27px] ' src={logoImg} alt="logo-img" width={122} height={27} />
 
             <nav className='flex items-center  gap-[32px] justify-between text-[#A7A8AF]'>
-                <NavLink className={'py-[27px]'} to={'/'}>Home</NavLink>
-                <NavLink className={'py-[27px]'} to={'/service'}>Service</NavLink>
-                <NavLink className={'py-[27px]'} to={'/company'}>Company</NavLink>
+                <NavLink className={'py-[27px]'} to={'/'}>Company</NavLink>
                 <NavLink className={'py-[27px]'} to={'/career'}>Career</NavLink>
                 <NavLink className={'py-[27px]'} to={'/blog'}>Blog</NavLink>
                 <NavLink className={'py-[27px]'} to={'/contact us'}>Contact us</NavLink>
