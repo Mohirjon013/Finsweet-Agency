@@ -33,7 +33,7 @@ function CompanyDelivery() {
         <div className='w-[515px]'>
             <img src={boxBlueImg} alt="blue-box" width={16} height={16} />
             <ul className='space-y-3'>
-                {
+                { 
                     deliveryList.map(item => (
                         <li className='flex items-start gap-[16px] py-[32px] pl-[32px] bg-white'>
                             <div className="w-[47px] h-[47px] bg-[#FFE6D2] rounded-full">
