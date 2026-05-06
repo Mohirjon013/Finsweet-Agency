@@ -11,7 +11,7 @@ function App() {
         <Route path='company' element={<Company/>}/>
         <Route path='career' element={<Career/>}/>
         <Route path='career/job/:id' element={<CareerInner/>} >
-          <Route path='detials' element={<InnerDetail/>} />
+          <Route index element={<InnerDetail/>} />
           <Route path='requirmeents' element={<InnerReq/>} />
           <Route path='responsibilities' element={<InnerRes/>} />
         </Route>
