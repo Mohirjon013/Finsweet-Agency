@@ -49,3 +49,34 @@
     border-top: 3px solid #FFA155;
 }
 
+
+
+
+.team__item{
+    width: 308px;
+    height: 308px;
+    z-index: 5;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.team__item:hover > .team__img{
+    height: 100%;
+}
+.team__item:hover > .team__item--hidden{
+    bottom: 0;
+}
+.team__item--hidden{
+    width: 100%;
+    height: 100%;
+    padding-top: 168px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+    position: absolute;
+    z-index: 10;
+    bottom: -100%;
+    background-color: #232536FC;
+    opacity: 0.9;
+    transition: 0.4s all ;
+}

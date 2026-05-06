@@ -1,6 +1,5 @@
 import React from 'react'
-import { CompanyHero, Header } from '../components'
-import CompanyEpertise from '../components/CompanyEpertise'
+import { CompanyHero, Header, CompanyEpertise, CompanyVision, CompanyTeam, NewsLetter, TopOfFooter, Footer } from '../components'
 
 
 
@@ -8,14 +7,18 @@ function Home() {
   
 
   return (
-    <div>
+    <>
       <Header/>
-
-      <main className=''>
+      <main>
         <CompanyHero/>
         <CompanyEpertise/>
+        <CompanyVision/>
+        <CompanyTeam/>
+        <NewsLetter/>
+        <TopOfFooter/>
       </main>
-    </div>
+      <Footer/>
+    </>
   )
 }
 

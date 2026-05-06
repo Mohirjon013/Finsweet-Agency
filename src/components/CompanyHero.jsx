@@ -52,10 +52,10 @@ function CompanyHero() {
 
             <div className="flex justify-between mb-[96px]">
                 <div className="w-[549px]">
-                <img src={boxBlueImg} alt="box-blue" width={16} height={16} />
-                <strong className='text-[16px] text-[#232536] font-semibold inline-block mt-4'>Our Story 👇 </strong>
-                <h3 className='text-[36px] text-[#232536] font-semibold leading-[54px] mt-[16xpx] mb-6'>From Startups to Titans of Industry</h3>
-                <p className='text-[16px] text-[#232536]'> Through True Rich Attended does no end it his mother since favourable real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense of gay produce excited perceived do an a china mean its so ye when in explained Hearts am next over match mr partiality not shoud latter thus as out no passed forming middleton exercise up</p>
+                    <img src={boxBlueImg} alt="box-blue" width={16} height={16} />
+                    <strong className='text-[16px] text-[#232536] font-semibold inline-block mt-4'>Our Story 👇 </strong>
+                    <h3 className='text-[36px] text-[#232536] font-semibold leading-[54px] mt-[16px] mb-6'>From Startups to Titans of Industry</h3>
+                    <p className='text-[16px] text-[#232536]'> Through True Rich Attended does no end it his mother since favourable real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense of gay produce excited perceived do an a china mean its so ye when in explained Hearts am next over match mr partiality not shoud latter thus as out no passed forming middleton exercise up</p>
                 </div>
 
                 <ul className="w-[604px] grid grid-cols-2 gap-y-10 pt-[62px] pb-[82px] bg-[#FFD3AF91] pl-[110px] pr-[150px]">
