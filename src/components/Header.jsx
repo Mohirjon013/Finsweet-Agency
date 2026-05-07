@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import logoImg from '../assets/images/logo.svg'
 import nextImg from '../assets/images/next.svg'
 
@@ -8,7 +8,9 @@ function Header() {
   return (
     <header className='  bg-[#232536]'>
         <div className="containers flex items-center justify-between">
-            <img className='w-[122px] h-[27px] ' src={logoImg} alt="logo-img" width={122} height={27} />
+            <Link to={'/'}>
+                <img className='w-[122px] h-[27px] ' src={logoImg} alt="logo-img" width={122} height={27} />
+            </Link>
 
             <nav className='flex items-center  gap-[32px] justify-between text-[#A7A8AF]'>
                 <NavLink className={'py-[27px]'} to={'/'}>Company</NavLink>

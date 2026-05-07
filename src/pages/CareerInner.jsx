@@ -8,6 +8,7 @@ function CareerInner() {
     
     const {id} = useParams() 
     const findedJob = offerList.find(item => item.id === +id)
+    if (!findedJob) return <p>Job not found</p>
     
     return (
         <>

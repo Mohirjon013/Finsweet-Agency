@@ -6,6 +6,10 @@ import CompanyVision from "./CompanyVision";
 import CompanyTeam from "./CompanyTeam";
 import CompanyTeamItem from "./CompanyTeamItem";
 
+import TeamInfo from "./TeamInfo";
+import TeamBlog from "./TeamBlog";
+
+
 import CareerHero from "./CareerHero";
 import CareerList from "./CareerList";
 import CareerWork from "./CareerWork";
@@ -30,8 +34,9 @@ import NewsLetter from "./NewsLetter";
 import TopOfFooter from "./TopOfFooter";
 import Footer from "./Footer";
 
+import ScrollToTop from './ScrollToTop'
 
 
 
 
-export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes, BlogBreaking, BlogRead, BlogPost, BlogInnerCode, BlogInnerInfo,   NewsLetter, Footer, TopOfFooter}
+export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes, BlogBreaking, BlogRead, BlogPost, BlogInnerCode, BlogInnerInfo, TeamBlog,TeamInfo,   NewsLetter, Footer, TopOfFooter,ScrollToTop}

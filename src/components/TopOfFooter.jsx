@@ -11,7 +11,7 @@ function TopOfFooter() {
   const navLinks = [
   { name: "Home", link: "/" },
   { name: "Service", link: "/service" },
-  { name: "Company", link: "/company" },
+  { name: "Company", link: "/" },
   { name: "Career", link: "/career" },
   { name: "News", link: "/news" }
 ]

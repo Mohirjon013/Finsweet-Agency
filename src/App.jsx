@@ -1,12 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
-import { Home, Service,Company, Career, CareerInner, Blog, BlogInner } from './pages'
-import { InnerDetail, InnerReq, InnerRes } from './components'
+import { Company, Career, CareerInner, Blog, BlogInner, CompanyTeam } from './pages'
+import { InnerDetail, InnerReq, InnerRes, ScrollToTop } from './components'
 
 function App() {
   return (
     <>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Company/>}/>
+        <Route path='/team/:id' element={<CompanyTeam/>}/>
         <Route path='career' element={<Career/>}/>
         <Route path='career/job/:id' element={<CareerInner/>} >
           <Route index element={<InnerDetail/>} />
@@ -15,9 +17,9 @@ function App() {
         </Route>
         <Route path='blog' element={<Blog/>}/>
         <Route path='blog/posts' element={<BlogInner/>}/>
-         
+          
       </Routes>
-    </>
+    </> 
   )
 }
 
