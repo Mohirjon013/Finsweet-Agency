@@ -9,9 +9,11 @@ import Blog from './Blog'
 import BlogInner from './BlogInner'
 
 import Privacy from './Privacy'
+import ContactUs from './ContactUs'
 
 
 
 
 
-export {Home, Service, Company, CompanyTeam, Career, CareerInner, Blog, BlogInner, Privacy}
+
+export {Home, Service, Company, CompanyTeam, Career, CareerInner, Blog, BlogInner, Privacy, ContactUs}

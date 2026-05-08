@@ -29,14 +29,21 @@ import BlogPost from "./BlogPost";
 import BlogInnerCode from "./BlogInnerCode";
 import BlogInnerInfo from "./BlogInnerInfo";
 
- 
+import PrivacyTitle from "./PrivacyTitle";
+import PrivacyInfo from "./PrivacyInfo";
+
+import ContactHero from "./ContactHero";
+import ContactForm from "./ContactForm";
+
+
+
 import NewsLetter from "./NewsLetter";
 import TopOfFooter from "./TopOfFooter";
 import Footer from "./Footer";
 
 import ScrollToTop from './ScrollToTop'
 
+import MapSection from './MapSection'
 
 
-
-export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes, BlogBreaking, BlogRead, BlogPost, BlogInnerCode, BlogInnerInfo, TeamBlog,TeamInfo,   NewsLetter, Footer, TopOfFooter,ScrollToTop}
+export {Header, CompanyHero, CompanyEpertise, CompanyDelivery, CompanyVision, CompanyTeam, CompanyTeamItem, CareerHero, CareerList, CareerWork,  CareerInnerDescription, CareeerInnerApply, CarrerInnerDetail, InnerDetail, InnerReq, InnerRes, BlogBreaking, BlogRead, BlogPost, BlogInnerCode, BlogInnerInfo, TeamBlog,TeamInfo, PrivacyTitle, PrivacyInfo, MapSection,   NewsLetter, ContactHero, ContactForm, Footer, TopOfFooter,ScrollToTop}

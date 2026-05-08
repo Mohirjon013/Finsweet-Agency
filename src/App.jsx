@@ -1,10 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
-import { Company, Career, CareerInner, Blog, BlogInner, CompanyTeam } from './pages'
+import { Company, Career, CareerInner, Blog, BlogInner, CompanyTeam, Privacy, ContactUs } from './pages'
 import { InnerDetail, InnerReq, InnerRes, ScrollToTop } from './components'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
   return (
     <>
+      <Toaster position="top-right" reverseOrder={false}/>
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Company/>}/>
@@ -17,6 +19,9 @@ function App() {
         </Route>
         <Route path='blog' element={<Blog/>}/>
         <Route path='blog/posts' element={<BlogInner/>}/>
+        <Route path='contact-us' element={<ContactUs/>}/>
+        <Route path='privacy-policy' element={<Privacy/>}/>
+
           
       </Routes>
     </> 

@@ -16,7 +16,7 @@ function Header() {
                 <NavLink className={'py-[27px]'} to={'/'}>Company</NavLink>
                 <NavLink className={'py-[27px]'} to={'/career'}>Career</NavLink>
                 <NavLink className={'py-[27px]'} to={'/blog'}>Blog</NavLink>
-                <NavLink className={'py-[27px]'} to={'/contact us'}>Contact us</NavLink>
+                <NavLink className={'py-[27px]'} to={'/contact-us'}>Contact us</NavLink>
                 <NavLink className={'flex gap-2 text-[#FFD3AF] py-[27px]'} to={'/clone project'}>
                     Clone project
                     <img src={nextImg} alt="next-img" width={20} />
